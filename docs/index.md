@@ -160,3 +160,7 @@ _Note: There is only limited amount of information and no project-code here due 
 # Conclusion 
 
 To conclude, there is alot of scope for advancements using machine learning and reinforcement learning in the problem of wealth management in the domain of Quantitative finance. 
+
+# References
+1. https://arxiv.org/abs/1706.10059
+2. http://www-scf.usc.edu/~zhan527/post/cs599/
