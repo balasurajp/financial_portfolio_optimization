@@ -1,5 +1,6 @@
 theme: jekyll-theme-leap-day
-title: Portfolio Optimization in Financial Markets
-description: TCS Research & Innovation
+markdown: kramdown
 kramdown:
   math_engine: katex
+title: Portfolio Optimization in Financial Markets
+description: TCS Research & Innovation
