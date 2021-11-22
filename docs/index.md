@@ -135,7 +135,7 @@ In this project, all the frameworks has a fundamental aim of maximising forecast
  
 # Simulated Environment
 
-Let's consider the number of financial assets that agent would invest is \\( N \\). For simplicity, we assume our total investment capital is 1.0 unit base asset at initial timeperiod. Now, let's define _relative price vector of close-open prices_ and _portfolio weight vector_ as:
+Let's consider the number of financial assets that agent would invest is \\( N \\). For simplicity, we assume our total investment capital is 1.0 unit base asset at initial timeperiod. Now, let's define _relative price vector of close-open prices_ and _portfolio weight vector_ where \\( \frac{v_{i, t}^{close}}{v_{i, t}^{open}} \\) is _relative price_ and \\( w_{i,t} \\) is the _fraction of capital_ of asset \\(i\\) at timeperiod \\(t\\). 
   
   $$ y_t=[1, \frac{v_{1,t}^{close}}{v_{1,t}^{open}}, \frac{v_{2,t}^{close}}{v_{2,t}^{open}},\cdots,\frac{v_{N,t}^{close}}{v_{N,t}^{open}}] $$
 
@@ -143,14 +143,20 @@ Let's consider the number of financial assets that agent would invest is \\( N \
 
   $$ \sum_{i=0}^{N}w_{i, t}=1 $$
 
-where \\( \frac{v_{i, t}^{close}}{v_{i, t}^{open}} \\) is _relative price_ and \\( w_{i,t} \\) is the _fraction of capital_ of asset \\(i\\) at timeperiod \\(t\\). 
-
 In any fixed horizon simulation, the total capital value after timestamp \\(T\\) while considering the transaction cost factor \\( \mu \\) is
 
   $$ p_T=\prod_{t=1}^{T}(1-\mu\sum{|\frac{y_t \odot w_{t-1}}{y_t \cdot w_{t-1}} - w_{t}|}) y_t\cdot w_{t-1} $$
 
 # Proposed Methodology
 
-# Qualitative Results
+The trading agent with desired objective is achieved through different formulations such as
+
+- **Reinforcement learning formulation**: The interaction between the simulated environment and the trading agent can be formulated into Markov Decision Process with appropriate state, action and reward mechanisms. This MDP formulation can be solved using various model-free reinforcement algorithms such as DQN, DDPG, PPO, SAC etc...
+
+- **Deep learning formulation**: Using the appropriate assumptions, this problem can be formulated into supervised learning framework, where state-action-reward can be viewed as input-output-objective. This is typically one-way to model this problem and there exists several ways in which this problem can be solved using deep learning.
+
+_Note: You can find only limited amount of information and no project-code here due to TCS confidentiality and Intellectual property rights_
 
 # Conclusion 
+
+To conclude, there is alot of scope for advancements using machine learning and reinforcement learning in the problem of wealth management in the domain of Quantitative finance. 
