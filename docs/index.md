@@ -155,7 +155,7 @@ The trading agent with desired objective is achieved through different formulati
 
 - **Deep learning formulation**: Using the appropriate assumptions, this problem can be formulated into supervised learning framework, where state-action-reward can be viewed as input-output-objective. This is typically one-way to model this problem and there exists several ways in which this problem can be solved using deep learning.
 
-_Note: You can find only limited amount of information and no project-code here due to TCS confidentiality and Intellectual property rights_
+_Note: You can only find limited amount of information and no project-code here due to TCS confidentiality and Intellectual property rights_
 
 # Conclusion 
 
