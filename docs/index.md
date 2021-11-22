@@ -141,7 +141,13 @@ Let's consider the number of financial assets that agent would invest to be \\( 
 
   $$ w_t=[w_{0,t}, w_{1, t}, \cdots, w_{N, t}] $$
 
+  $$ \sum_{i=0}^{N}w_{i, t}=1 $$
+
 where \\( \frac{v_{i, t, close}}{v_{i, t, open}} \\) is _relative price_ and \\( w_{i,t} \\) is the _fraction of capital_ of asset \\(i\\) at timeperiod \\(t\\). 
+
+In any fixed horizon simulation, the total capital value after timestamp \\(T\\) while considering the transaction cost factor \\( \mu \\) is
+
+  $$ p_T=\prod_{t=1}^{T}(1-\mu\sum{|\frac{y_t \odot w_{t-1}}{y_t \cdot w_{t-1}} - w_{t}|) y_t\cdot w_{t-1} $$
 
 # Proposed Methodology
 
