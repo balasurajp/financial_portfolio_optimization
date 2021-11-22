@@ -140,7 +140,6 @@ Let's consider the number of financial assets that agent would invest to be _**N
   <!-- <p align="center"> <img src="images/se1.PNG" /> </p> -->
   $$ f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi $$
 
-
 # Proposed Methodology
 
 # Qualitative Results
