@@ -138,8 +138,8 @@ In this project, all the frameworks has a fundamental aim of maximising forecast
 Let's consider the number of financial assets that agent would invest to be _**N**_. For simplicity, we assume our total investment capital is 1 unit base asset at initial timeperiod. Now, let's define relative price vector of close and open prices as:
   
   <!-- <p align="center"> <img src="images/se1.PNG" /> </p> -->
-  $$ {X}_{0} $$ (works)
-  $$ X_0 $$ (works)
+  $$ {X}_{0} $$
+  $$ y_t=[1, \frac{v_{1,t, close}}{v_{1,t, open}}, \frac{v_{2,t, close}}{v_{2,t, open}},\cdots,\frac{v_{N,t,close}}{v_{N,t, open}}] $$
 
 # Proposed Methodology
 
