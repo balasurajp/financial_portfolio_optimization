@@ -1,6 +1,6 @@
 ---
 layout: default
-katex: True
+katex: true
 ---
 
 <!-- 
