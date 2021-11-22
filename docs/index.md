@@ -138,14 +138,8 @@ In this project, all the frameworks has a fundamental aim of maximising forecast
 
 Let's consider the number of financial assets that agent would invest to be _**N**_. For simplicity, we assume our total investment capital is 1 unit base asset at initial timeperiod. Now, let's define relative price vector of close and open prices as:
   
-  <p align="center"> <img src="images/se1.PNG" /> </p>
-
-
-The equation $3x^2 + 5x +1 = 0$ has the solutions
-
-$$
-x_{1,2} = \frac{-5 \pm \sqrt{5^2-12}}{6}
-$$
+  <!-- <p align="center"> <img src="images/se1.PNG" /> </p> -->
+  $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
 
 
 # Proposed Methodology
