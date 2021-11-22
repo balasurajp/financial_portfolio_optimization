@@ -147,7 +147,9 @@ where \\( \frac{v_{i, t, close}}{v_{i, t, open}} \\) is _relative price_ and \\(
 
 In any fixed horizon simulation, the total capital value after timestamp \\(T\\) while considering the transaction cost factor \\( \mu \\) is
 
-  $$ p_T=\prod_{t=1}^{T}(1-\mu\sum{|\frac{y_t \odot w_{t-1}}{y_t \cdot w_{t-1}} - w_{t}|) y_t\cdot w_{t-1} $$
+  $$ {\mu}_t=\mu\sum{|\frac{y_t \odot w_{t-1}}{y_t \cdot w_{t-1}} - w_{t}|} $$
+
+  $$ p_T=\prod_{t=1}^{T}(1-\mu_t) y_t\cdot w_{t-1} $$
 
 # Proposed Methodology
 
