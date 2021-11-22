@@ -141,6 +141,13 @@ $$
   y_t=[1, \frac{v_{1,t, close}}{v_{1,t, open}}, \frac{v_{2,t, close}}{v_{2,t, open}},\cdots,\frac{v_{N,t,close}}{v_{N,t, open}}]
 $$
 
+The equation $3x^2 + 5x +1 = 0$ has the solutions
+
+$$
+x_{1,2} = \frac{-5 \pm \sqrt{5^2-12}}{6}
+$$
+
+
 # Proposed Methodology
 
 # Qualitative Results
