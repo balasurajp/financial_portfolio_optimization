@@ -135,12 +135,12 @@ In this project, all the frameworks has a fundamental aim of maximising forecast
  
 # Simulated Environment
 
-Let's consider the number of financial assets that agent would invest to be \\( N \\) and \\[ w_{i,t} \\] and $ w_{i,t} $. For simplicity, we assume our total investment capital is 1 unit base asset at initial timeperiod. Now, let's define _relative price vector of close-open prices_ and _portfolio weight vector_ as:
+Let's consider the number of financial assets that agent would invest to be \\( N \\). For simplicity, we assume our total investment capital is 1 unit base asset at initial timeperiod. Now, let's define _relative price vector of close-open prices_ and _portfolio weight vector_ as:
   
-  $$ y_t=[1, \frac{v_{1,t, close}}{v_{1,t, open}}, \frac{v_{2,t, close}}{v_{2,t, open}},\cdots,\frac{v_{N,t,close}}{v_{N,t, open}}] $$
-  $$ w_t=[w_{0,t}, w_{1, t}, \cdots, w_{N, t}] $$
+  \\[ y_t=[1, \frac{v_{1,t, close}}{v_{1,t, open}}, \frac{v_{2,t, close}}{v_{2,t, open}},\cdots,\frac{v_{N,t,close}}{v_{N,t, open}}] ]\\
+  \\[ w_t=[w_{0,t}, w_{1, t}, \cdots, w_{N, t}] ]\\
 
-<!-- where \\( \frac{v_{i, t, close}}{v_{i, t, open}} \\) is _relative price_ and \\( w_{i,t} \\) is the _fraction of capital_ of asset \\(i\\) at timeperiod \\(t\\).  -->
+where \\( \frac{v_{i, t, close}}{v_{i, t, open}} \\) is _relative price_ and \\( w_{i,t} \\) is the _fraction of capital_ of asset \\(i\\) at timeperiod \\(t\\). 
 
 # Proposed Methodology
 
