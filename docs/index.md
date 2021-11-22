@@ -141,6 +141,13 @@ Let's consider the number of financial assets that agent would invest to be _**N
   <p align="center"> <img src="images/se1.PNG" /> </p>
 
 
+The equation $3x^2 + 5x +1 = 0$ has the solutions
+
+$$
+x_{1,2} = \frac{-5 \pm \sqrt{5^2-12}}{6}
+$$
+
+
 # Proposed Methodology
 
 # Qualitative Results
