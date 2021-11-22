@@ -137,13 +137,13 @@ In this project, all the frameworks has a fundamental aim of maximising forecast
 
 Let's consider the number of financial assets that agent would invest is \\( N \\). For simplicity, we assume our total investment capital is 1.0 unit base asset at initial timeperiod. Now, let's define _relative price vector of close-open prices_ and _portfolio weight vector_ as:
   
-  $$ y_t=[1, \frac{v_{1,t}^{close}}}{v_{1,t}^{open}}}, \frac{v_{2,t}^{close}}}{v_{2,t}^{open}}},\cdots,\frac{v_{N,t}^{close}}}{v_{N,t}^{open}}}] $$
+  $$ y_t=[1, \frac{v_{1,t}^{close}}{v_{1,t}^{open}}, \frac{v_{2,t}^{close}}{v_{2,t}^{open}},\cdots,\frac{v_{N,t}^{close}}{v_{N,t}^{open}}] $$
 
   $$ w_t=[w_{0,t}, w_{1, t}, \cdots, w_{N, t}] $$
 
   $$ \sum_{i=0}^{N}w_{i, t}=1 $$
 
-where \\( \frac{v_{i, t}^{close}}}{v_{i, t}^{open}}} \\) is _relative price_ and \\( w_{i,t} \\) is the _fraction of capital_ of asset \\(i\\) at timeperiod \\(t\\). 
+where \\( \frac{v_{i, t}^{close}}{v_{i, t}^{open}} \\) is _relative price_ and \\( w_{i,t} \\) is the _fraction of capital_ of asset \\(i\\) at timeperiod \\(t\\). 
 
 In any fixed horizon simulation, the total capital value after timestamp \\(T\\) while considering the transaction cost factor \\( \mu \\) is
 
